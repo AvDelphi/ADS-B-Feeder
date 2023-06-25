@@ -3,34 +3,46 @@ The AvDelphi feeder is a simple script that allows you to feed the AvDelphi ADS-
 
 Installing
  
-1. Download the feeder script
-a. As shell-script file -> https://www.avdelphi.com/downloads/avdelphi_feeder.sh
-b. As ZIP file -> https://www.avdelphi.com/downloads/avdelphi_feeder.zip
+1. Download the feeder script by visiting https://www.avdelphi.com/downloads.html
+
+  a. As shell-script file -> https://www.avdelphi.com/downloads/avdelphi_feeder.sh
+  b. As ZIP file -> https://www.avdelphi.com/downloads/avdelphi_feeder.zip
+
 2. Make sure you are running with elevated privileges – you may need to ‘su’
-3. Install ‘nc’ – this is a pre-requisite. sudo apt-get install netcat
+
+3. Install ‘nc’ – this is a pre-requisite. 
+
+   sudo apt-get install netcat
+
 4. Extract the zip file if necessary and then copy the .sh file into the directory of your choice. We suggest /usr/local/avdelphi
-5. Change the file permissions so the file can run using chmod +x avdelphi_feeder.sh
-6. Edit the file and make any changes to “SOURCE=” required to correctly read your ADS-B source. The
-file contains information you need to do this. The defaults work with a default dump1090 install.
+
+5. Change the file permissions so the file can run using 
+
+    chmod +x avdelphi_feeder.sh
+
+6. Edit the file and make any changes to “SOURCE=” required to correctly read your ADS-B source. The file contains information you need to do this. The defaults work with a default dump1090 install.
+
 7. Ensure that your ADS-B software is running then type
 
   ./avdelphi_feeder.sh to start the feeder and test it
 
 8. You should see the following:
 
-AvDelphi ADS-B feeder Version 1.01 
-------------------------------------------------------- 
-INFORMATION: Data source is available
-INFORMATION: AvDelphi is reachable
-INFORMATION: Feeding to AvDelphi via TCP to data.avdelphi.com:24999
-   
+  AvDelphi ADS-B feeder Version 1.01 
+  ------------------------------------------------------- 
+  INFORMATION: Data source is available
+  INFORMATION: AvDelphi is reachable
+  INFORMATION: Feeding to AvDelphi via TCP to data.avdelphi.com:24999
+
+
+Auto starting the script 
 To start the feeder automatically when your Linux system starts enter:
 
 update-rc.d /usr/local/avdelphi/avdelphi_feeder.sh defaults 100 
 
 or use crontab...
 
-Edit crontab with crontab –e and add this line
+Edit crontab with the command "crontab –e" and add this line
 
 @reboot /usr/local/avdelphi/avdelphi_feeder.sh
 
