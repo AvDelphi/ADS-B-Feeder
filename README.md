@@ -1,13 +1,18 @@
 # ADS-B-Feeder
 A simple bash script for contributing ADS-B data from sources such as dump1090, RTl1090 and more.
 
-For the technically savvy 
+For the technically savvy...
+
 We accept ADS-B data in Beast, Basestation, avr, or avrmlat format on
 data.avdelphi.com:24999
 TCP or UDP
 
 Installing the feed script
+
 Click on the 'Setup instructions' link above to see the step-by-step installation guide.
+
+
+<b>After installation</b>
 
 Create an account at AvDelphi so you can claim your feed and receive the benefits of an ADSB contributor.  Sign-up at https://www.avdelphi.com/login
 
