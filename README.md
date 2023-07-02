@@ -9,7 +9,7 @@ TCP or UDP
 
 <b>Installing the feed script</b>
 
-Click on the <a href='https://github.com/AvDelphi/ADS-B-Feeder/blob/main/setup%20instructions'>'Setup instructions'</a> link above to see the step-by-step installation guide.
+Follow the <a href='https://github.com/AvDelphi/ADS-B-Feeder/blob/main/setup%20instructions'>'Setup instructions'</a> for a step-by-step installation installation guide.
 
 
 <b>After installation</b>
