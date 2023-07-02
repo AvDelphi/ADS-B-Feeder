@@ -7,7 +7,7 @@ We accept ADS-B data in Beast, Basestation, avr, or avrmlat format on
 data.avdelphi.com:24999
 TCP or UDP
 
-Installing the feed script
+<b>Installing the feed script</b>
 
 Click on the 'Setup instructions' link above to see the step-by-step installation guide.
 
