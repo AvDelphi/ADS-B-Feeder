@@ -6,6 +6,9 @@ We accept ADS-B data in Beast, Basestation, avr, or avrmlat format on
 data.avdelphi.com:24999
 TCP or UDP
 
+Installing the feed script
+Click on the 'Setup instructions' link above to see the step-by-step installation guide.
+
 Create an account at AvDelphi so you can claim your feed and receive the benefits of an ADSB contributor.  Sign-up at https://www.avdelphi.com/login
 
 Once your feed script is running you can check if we can see your feed at https://www.avdelphi.com/myfeed.html
