@@ -11,7 +11,7 @@ Installing
 
    sudo apt-get install netcat
 
-4. Extract the zip file if necessary and then copy the .sh file into the directory of your choice. We suggest /usr/local/avdelphi
+4. Copy the avdelphi_feeder.sh file into the directory of your choice. We suggest /usr/local/avdelphi
 
 5. Change the file permissions so the file can run using 
 
@@ -25,7 +25,7 @@ Installing
 
 8. You should see the following:
 
-  AvDelphi ADS-B feeder Version 1.01 
+  AvDelphi ADS-B feeder Version x.xx 
   ------------------------------------------------------- 
   INFORMATION: Data source is available
   INFORMATION: AvDelphi is reachable
