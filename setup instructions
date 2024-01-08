@@ -4,7 +4,13 @@ The AvDelphi feeder is a simple script that allows you to feed the AvDelphi ADS-
 Installing
  
 1. Download the shell-script file -> https://www.avdelphi.com/downloads/avdelphi_feeder.sh
-  
+
+    Example
+      
+        wget https://www.avdelphi.com/downloads/avdelphi_feeder.sh
+or
+        curl https://www.avdelphi.com/downloads/avdelphi_feeder.sh > avdelphi_feeder.sh
+
 2. Make sure you are running with elevated privileges – you may need to ‘su’
 
 3. Install ‘nc’ – this is a pre-requisite. 
