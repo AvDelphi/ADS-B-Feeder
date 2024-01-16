@@ -3,9 +3,8 @@ A simple bash script for contributing ADS-B data from sources such as dump1090, 
 
 For the technically savvy...
 
-We accept ADS-B data in Beast, Basestation, avr, or avrmlat format on
+We accept BaseStation data on TCP port 24999
 data.avdelphi.com:24999
-TCP or UDP
 
 <b>Installing the feed script</b>
 
